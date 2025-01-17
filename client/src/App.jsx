@@ -22,26 +22,21 @@
 
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Breadcrumb2 from "./components/Breadcrumb2";
-import AddAsset from "./AddAsset";
-import ActionButtons from "./components/ActionButtons";
-import SearchForm from "./components/SearchForm";
-import DataTable from "./components/DataTable";
-import NavBar from "./components/NavBar";
+import Header from "./components/Header"; // headbar
+import Breadcrumb from "./components/Breadcrumb"; // breadcrumb 
+import NavBar from "./components/NavBar"; // navbar
+import ClickIcon from "./components/ClickIcon"; // นำเข้า ClickIcon คอมโพเนนต์
+import Permissions from "./Permissions"; // permissions
 
 const HomePage = () => (
   <div style={{ backgroundColor: '#f1f8e9' }} className="min-h-screen font-sans">
+    {/* ส่วนของ Header, NavBar, Breadcrumb */}
     <Header />
     <NavBar />
-    <Breadcrumb2 />
-    <div className="container mx-auto p-4">
-      <h1 className="text-lg font-bold mb-4">รายการครุภัณฑ์</h1>
-      <SearchForm />
-      <ActionButtons />
-      <DataTable />
-      
-    </div>
+    <Breadcrumb />
+    
+    {/* เพิ่ม ClickIcon บนหน้า HomePage */}
+    <ClickIcon /> {/* คอมโพเนนต์ที่มีรูปและข้อความคลิกได้ */}
   </div>
 );
 
@@ -50,7 +45,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/add-asset" element={<AddAsset />} />
+        <Route path="/permissions" element={<Permissions />} />
       </Routes>
     </Router>
   );

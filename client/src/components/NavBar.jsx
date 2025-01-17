@@ -13,8 +13,8 @@ function NavBar() {
                <div className="hidden md:block">
                  <div className="font-prompt ml-10 flex items-baseline space-x-4">
                    <a href="#" className="rounded-md px-3 py-1 text-sm font-medium text-teal-800 hover:bg-gray-700 hover:text-white" aria-current="page">Dashboard</a>
-                   <a href="#" className="rounded-md bg-gray-200 px-3 py-1 text-sm font-medium text-teal-800 hover:bg-gray-100 hover:text-white ">จัดการพัสดุ</a>
-                   <a href="#" className="rounded-md px-3 py-1 text-sm font-medium text-teal-800 hover:bg-gray-700 hover:text-white">จัดการสิทธิ์</a>
+                   <a href="#" className="rounded-md px-3 py-1 text-sm font-medium text-teal-800 hover:bg-gray-700 hover:text-white">จัดการพัสดุ</a>
+                   <a href="#" className="rounded-md bg-gray-200 px-3 py-1 text-sm font-medium text-teal-800 hover:bg-gray-100 hover:text-white">จัดการสิทธิ์</a>
                    <a href="#" className="rounded-md px-3 py-1 text-sm font-medium text-teal-800 hover:bg-gray-700 hover:text-white">ดูข้อมูลพัสดุ</a>
                    <a href="#" className="rounded-md px-3 py-1 text-sm font-medium text-teal-800 hover:bg-gray-700 hover:text-white">รายงาน</a>
                  </div>
