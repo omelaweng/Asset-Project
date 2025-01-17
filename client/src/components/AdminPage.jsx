@@ -73,7 +73,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 import NavBar from "./NavBar";
-import Breadcrumb from "./breadcrumabddmin";
+import Breadcrumbaddmin from "./breadcrumabddmin";
 
 const AdminPage = () => {
   const [selectedRole, setSelectedRole] = useState("");
@@ -111,7 +111,7 @@ const AdminPage = () => {
     <div style={{ backgroundColor: "#f1f8e9" }} className="min-h-screen font-sans">
       <Header />
       <NavBar />
-      <Breadcrumb />
+      <Breadcrumbaddmin />
 
       <div className="container mx-auto p-4">
         <h2 className="text-xl font-bold mb-4">จัดการสิทธิ์ของแอดมิน</h2>

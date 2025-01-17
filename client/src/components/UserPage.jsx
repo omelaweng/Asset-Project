@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "./Header";
 import NavBar from "./NavBar";
-import Breadcrumb from "./Breadcrumbuser";
+import Breadcrumbuser from "./Breadcrumbuser";
 
 const UserPage = () => {
   // State สำหรับจัดการการเลือกสิทธิ์
@@ -37,7 +37,7 @@ const UserPage = () => {
       {/* ส่วนของ Header, NavBar, Breadcrumb */}
       <Header />
       <NavBar />
-      <Breadcrumb />
+      <Breadcrumbuser />
       
       <div className="container mx-auto p-4">
         <h2 className="text-xl font-bold mb-4">จัดการสิทธิ์ของผู้ใช้</h2>
